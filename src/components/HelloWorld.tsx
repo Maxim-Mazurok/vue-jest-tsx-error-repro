@@ -1,5 +1,5 @@
 import * as tsx from "vue-tsx-support";
-import { VApp } from "vuetify/lib";
+import { VApp } from "vuetify/es5";
 import { VNode } from "vue";
 
 export default tsx.component({
