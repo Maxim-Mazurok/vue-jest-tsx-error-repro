@@ -1,5 +1,5 @@
 import * as tsx from "vue-tsx-support";
-import { VApp } from "vuetify/lib";
+import { VBtn } from "vuetify/lib";
 import { VNode } from "vue";
 
 export default tsx.component({
@@ -11,10 +11,6 @@ export default tsx.component({
     },
   },
   render(): VNode {
-    return (
-      <VApp>
-        <h1>{this.msg}</h1>
-      </VApp>
-    );
+    return <VBtn>{this.msg}</VBtn>;
   },
 });

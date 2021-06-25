@@ -8,6 +8,7 @@
     "test": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@testing-library/vue": "^5.7.0",
     "core-js": "^3.15.1",
     "vue": "^2.6.14",
     "vue-tsx-support": "^3.2.0",
